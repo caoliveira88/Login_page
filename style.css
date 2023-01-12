@@ -1,0 +1,33 @@
+/*RESET*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    padding: 16px;
+    gap: 16px;
+}
+
+.container__image {
+    background-image: url(img/login-img.jpg);
+    background-size: cover;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 32px;
+}
+
+.container__login {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
