@@ -29,6 +29,7 @@ main {
 h1 {
     font-family: 'Pacifico', cursive;
     font-size: 48px;
+    color: #fd829f;
 }
 
 .container__image {
@@ -52,6 +53,8 @@ h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 400;
+    margin-bottom: 32px;
+    color: #fd829f;
 }
 
 .login {
@@ -71,8 +74,17 @@ h1 {
     font-size: 14px;
 }
 
+input::placeholder {
+    color: #d1cece;
+}
+
 .recovery__password a {
     font-family: 'Poppins', sans-serif;
-    color: #000000;
+    color: #fd829f;
     text-decoration: none;
+    font-size: 12px;
 }
+
+.recovery__password {
+    margin-top: 24px;
+} 
