@@ -18,13 +18,18 @@
                 <h1>Hello Again!</h1>
             <p>Wellcome back you've been missed!</p>
             </div>  
-            <div class="login">
-                <input type="text" placeholder="Enter username">
-                <input type="password" placeholder="Password">
-            </div>
-            <div class="recovery__password">
-                <a href="/">Recovery Password</a> 
-            </div>
+            <form class="login">
+                <input type="text" required placeholder="Enter username">
+                <input type="password" required placeholder="Password">
+
+                <div class="recovery__password">
+                    <a href="/">Recovery Password</a> 
+                </div>
+                <div>
+                    <button class="button__login" type="submit">Sign In</button>
+                </div>
+            </form>
+            
         </div>
 
     </main>
