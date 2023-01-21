@@ -86,5 +86,21 @@ input::placeholder {
 }
 
 .recovery__password {
-    margin-top: 16px;
+    margin: 8px 0 16px 0;
 } 
+
+.button__login {
+    width: 100%;
+    padding:12px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: #fd829f;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: all .8s ease;
+}
+
+.button__login:hover {
+    background-color: #fd96ae;
+}
