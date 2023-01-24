@@ -104,3 +104,20 @@ input::placeholder {
 .button__login:hover {
     background-color: #fd96ae;
 }
+
+@media (max-width: 800px) {
+    .container__login {
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .container__image {
+        position: relative;
+        width: 100%;
+    }
+}
