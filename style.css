@@ -30,6 +30,7 @@ h1 {
     font-family: 'Pacifico', cursive;
     font-size: 48px;
     color: #fd829f;
+    text-shadow: 2px 3px 0px #eb4e72;
 }
 
 .container__image {
@@ -72,6 +73,7 @@ h1 {
     outline: none;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
+    box-shadow: 2px 3px 0px 0px #eb4e72;
 }
 
 input::placeholder {
@@ -99,6 +101,7 @@ input::placeholder {
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
     transition: all .8s ease;
+    box-shadow: 2px 3px 0px 0px #eb4e72;
 }
 
 .button__login:hover {
