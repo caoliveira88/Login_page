@@ -12,4 +12,7 @@ With a responsive design that adapts perfectly to your browsing experience. 💻
 
 💗
 
-https://github.com/caoliveira88/Login_page/blob/main/img/login_page_frame.png
+## Deploy
+To view the final result, go to [Login_page](https://caoliveira88.github.io/Login_page/)
+
+
